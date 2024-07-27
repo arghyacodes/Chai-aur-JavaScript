@@ -43,6 +43,13 @@ console.log(Math.pow(5,2));
 console.log(Math.max(2,4,6,5,3,1));
 console.log(Math.min(2,4,6,1,3,5));
 */
-
+/*
 console.log(Math.random());//always comes b/w 0 and 1
-console.log(Math.random()*10 + 1);//to get values b/w 1 to 10
+console.log((Math.random()*10) + 1);//to get values b/w 1 to 10
+*/
+//generate random number b/w min and max
+
+const min = 1
+const max = 6
+
+console.log(Math.floor(Math.random()*(max-min+1))+min);
