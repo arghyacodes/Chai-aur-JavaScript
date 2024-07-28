@@ -1,5 +1,7 @@
+//singleton
+// Object.create
 
-
+//object literals
 
 
 // key : value
