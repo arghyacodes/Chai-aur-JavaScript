@@ -31,4 +31,35 @@ function loginMessage(username) //parameter 'username', default value 'unknown' 
     return `${username} logged in successfully`
 }
 
-console.log(loginMessage("abc"));
+// console.log(loginMessage("abc"));
+
+
+//*****************************Rest Operator********************************** */
+
+function calculateCartValue(...price)
+{
+    return price
+}
+
+// console.log(calculateCartValue(100,250,450));
+
+function secondElement(inputArray)
+{
+    return inputArray[1]
+}
+
+console.log(secondElement([100,200,300,400,500]));
+
+
+
+
+function userData(inputUser)
+{
+    return `${inputUser["name"]} is of age ${inputUser.age}`
+}
+
+
+console.log(userData({
+    name : "abc",
+    age : 27
+}))
