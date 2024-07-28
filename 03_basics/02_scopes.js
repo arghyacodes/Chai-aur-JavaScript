@@ -16,9 +16,38 @@ var c = 30
 */
 
 let a = 255
-
+// curly brace {} --> means scope
 if(true){
     let a = 512
-    console.log("block scope a", a);
+    // console.log("block scope a", a);
 }
-console.log("global scope a", a);
+// console.log("global scope a", a);
+
+
+
+//**************************************** */
+
+function one(){
+    let username = "abc"
+    function two(){
+        let password = "123"
+        // console.log(username, password);
+    }
+    // console.log(password);   //out of scope
+    two()
+}
+
+// console.log(username);   //out of scope
+one()
+
+//***********************************Function Declaration***************************** */
+
+// console.log(addOne(5));
+function addOne(num){   //can be accessed before declaration
+    return (num + 1)
+}
+
+const addTwo = function(num){   //it is also called expression (can't be accessed before declaration)
+    return (num + 2)
+}
+// console.log(addTwo(5));
