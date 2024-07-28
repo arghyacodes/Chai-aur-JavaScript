@@ -10,12 +10,12 @@ bumbleUser.contactNo = 9883668661
 bumbleUser.isLoggedIn = true
 
 // console.log(bumbleUser);
-
+/*
 console.log(Object.keys(bumbleUser));
 console.log(Object.values(bumbleUser));
 console.log(Object.entries(bumbleUser));
 console.log(bumbleUser.hasOwnProperty('userId'));
-
+*/
 
 /*
 const Student = {
@@ -54,7 +54,9 @@ const student = {
     name : "abc",
     rollNumber : 21
 }
-
+const {rollNumber:roll} = student
+// student.rollNumber ==roll
+console.log(roll);
 const marks = {
     sub1 : 97,
     sub2 : 93,
@@ -77,6 +79,23 @@ console.log(data2); //all items are assigned to data2 no changes in original obj
 */
 
 //************************Spreading**************************** */
-const data3 = {...student, ...marks}
+// const data3 = {...student, ...marks}
 // console.log(data3);
 
+/*
+JSON STRUCTURE
+{
+    "name" : "abc",
+    "age" : 26,
+    "havePanCard" : true
+}
+*/
+
+/*
+// data maybe fetched from apis in this form
+[
+    {},
+    {},
+    {}
+]
+*/
