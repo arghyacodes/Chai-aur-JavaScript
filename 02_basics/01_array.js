@@ -26,7 +26,7 @@
 // const arr3 = arr2.join()    //joints both arrays and convert them to string
 // console.log(`joint array is ${arr3} it's type is ${typeof arr3}`);
 
-//**********************************slice splice
+//**********************************slice splice********************************************
 
 // slice makes a copy of array from [Start, end) original array remains unchanged
 // splice cuts the original array from [start, end] the original array is changed to remaining elements after splicing

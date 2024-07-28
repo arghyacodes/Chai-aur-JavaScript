@@ -21,9 +21,9 @@ console.log(newArr);
 
 /*
 //flat
-const complexArray = [1,2,3,[4,5],6,[7,8,[9,10]]]
+const complexArray = [1,2,3,[4,5],6,[7,8,[9,[10]]]]
 console.log(complexArray);
-const flatArray = complexArray.flat(2)   //2 is depth of array (if it is unknown you can put Infinity)
+const flatArray = complexArray.flat(3)   //3 is depth of array (if depth is unknown you can put Infinity)
 console.log(flatArray);
 */
 
