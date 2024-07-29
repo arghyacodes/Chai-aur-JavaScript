@@ -31,6 +31,7 @@
 // slice makes a copy of array from [Start, end) original array remains unchanged
 // splice cuts the original array from [start, end] the original array is changed to remaining elements after splicing
 
+/*
 const arr = [10, 20, 30, 40, 50, 60, 70, 80, 90,100]
 console.log(`original array before any operation ${arr}`);
 const newArr1 = arr.slice(2,5)
@@ -39,3 +40,4 @@ console.log(`original array after slicing ${arr}`);
 const newArr2 = arr.splice(2,5)
 console.log(`spliced array is ${newArr2}`);
 console.log(`original array after splicing ${arr}`);
+*/

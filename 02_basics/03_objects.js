@@ -5,7 +5,7 @@
 
 
 // key : value
-const passWord = Symbol("password")   //symbol
+const passWord = Symbol("key")   //symbol
 
 const jsUser = {
     "full name" : "Arghya Ghoshal",
