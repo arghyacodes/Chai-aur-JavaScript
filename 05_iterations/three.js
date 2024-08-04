@@ -7,5 +7,25 @@ for (const i of myArr) {
 
 const greeting = "Hello World!"
 for (const greet of greeting) {
-    console.log(greet);
+    // console.log(greet);
+}
+
+const map = new Map()
+
+// map.set('key', 'value')
+
+map.set('IN', 'India')
+map.set('UK','United Kingdom')
+map.set('FR', 'France')
+
+for (const key of map) {
+    // console.log(key);   
+
+    // [ 'IN', 'India' ]
+    // [ 'UK', 'United Kingdom' ]
+    // [ 'FR', 'France' ]
+}
+
+for (const [key,value] of map) {
+    console.log(`${key} is ${value}`);
 }
