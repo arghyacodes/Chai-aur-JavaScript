@@ -2,21 +2,21 @@ const marvel_heroes = ["thor","iron man","captain america"]
 const dc_heroes = ["super man", "bat man"]
 /*
 marvel_heroes.push(dc_heroes)   //array can contain multiple data types in it like here string + array
-// [ 'thor', 'iron man', 'captain america', [ 'super man', 'bat man' ] ]
 console.log(marvel_heroes);
+// [ 'thor', 'iron man', 'captain america', [ 'super man', 'bat man' ] ]
 */
 
 /*
 const temp = marvel_heroes.concat(dc_heroes)
-// [ 'thor', 'iron man', 'captain america', 'super man', 'bat man' ]
 console.log(temp);
+// [ 'thor', 'iron man', 'captain america', 'super man', 'bat man' ]
 */
 
 /*
 //spread
 const newArr = [...marvel_heroes, ...dc_heroes] //converts array to single elements
-// [ 'thor', 'iron man', 'captain america', 'super man', 'bat man' ]
 console.log(newArr);
+// [ 'thor', 'iron man', 'captain america', 'super man', 'bat man' ]
 */
 
 /*

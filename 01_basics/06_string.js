@@ -40,3 +40,7 @@ console.log(url1.replace('%20','_'))
 console.log(url1.includes('Shah'));
 console.log(url1.split('/'));
 */
+let temp = "     temp      string"
+console.log(temp);
+console.log(temp.trim());
+

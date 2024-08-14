@@ -3,16 +3,16 @@
 
 let myDate = new Date()
 /*
-console.log(myDate);
-console.log(typeof myDate);
-console.log("toString -> "+myDate.toString());
-console.log("toDateString -> "+myDate.toDateString());
-console.log("toISOString -> "+myDate.toISOString());
-console.log("toLocaleDateString -> "+myDate.toLocaleDateString());
-console.log("toLocaleString -> "+myDate.toLocaleString());
-console.log("toLocaleTimeString -> "+myDate.toLocaleTimeString());
-console.log("toTimeString -> "+myDate.toTimeString());
-console.log("toUTCString -> "+myDate.toUTCString());
+console.log(myDate);    //2024-08-14T03:29:49.979Z
+console.log(typeof myDate); //object
+console.log("toString -> "+myDate.toString());  //toString -> Wed Aug 14 2024 08:59:49 GMT+0530 (India Standard Time)
+console.log("toDateString -> "+myDate.toDateString());  //toDateString -> Wed Aug 14 2024
+console.log("toISOString -> "+myDate.toISOString());    //toISOString -> 2024-08-14T03:29:49.979Z
+console.log("toLocaleDateString -> "+myDate.toLocaleDateString());  //toLocaleDateString -> 14/8/2024
+console.log("toLocaleString -> "+myDate.toLocaleString());  //toLocaleString -> 14/8/2024, 8:59:49 am ***
+console.log("toLocaleTimeString -> "+myDate.toLocaleTimeString());  //toLocaleTimeString -> 8:59:49 am
+console.log("toTimeString -> "+myDate.toTimeString());  //toTimeString -> 08:59:49 GMT+0530 (India Standard Time)
+console.log("toUTCString -> "+myDate.toUTCString());    //toUTCString -> Wed, 14 Aug 2024 03:29:49 GMT
 */
 
 /*
@@ -26,15 +26,15 @@ console.log(myCreatedDate.toLocaleString());
 */
 
 /*
-//Timestamp count starts from 1st Jan 1970
+//***Timestamp count starts from 1st Jan 1970
 let myTimeStamp = Date.now()
-console.log(myTimeStamp);   //gives mili-second
-console.log(Math.floor(myTimeStamp/1000));//second
-console.log(Math.floor(myTimeStamp/60000));//minute
-console.log(Math.floor(myTimeStamp/3600000));//hour
-console.log(Math.floor(myTimeStamp/86400000));//day
-console.log(Math.floor(myTimeStamp/2592000000));//month
-console.log(Math.floor(myTimeStamp/31104000000));//year
+console.log(myTimeStamp);   //gives mili-second             1723606607731
+console.log(Math.floor(myTimeStamp/1000));//second          1723606607
+console.log(Math.floor(myTimeStamp/60000));//minute         28726776
+console.log(Math.floor(myTimeStamp/3600000));//hour         478779
+console.log(Math.floor(myTimeStamp/86400000));//day         19949
+console.log(Math.floor(myTimeStamp/2592000000));//month     664
+console.log(Math.floor(myTimeStamp/31104000000));//year     55
 */
 
 /*

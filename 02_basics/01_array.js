@@ -2,7 +2,7 @@
 // console.log(arr1);
 // console.log(arr1[2]);
 
-// const arr2 = new Array(50,60,70,80,90)
+const arr2 = new Array(50,60,70,80,90)
 // console.log(arr2);
 
 //methods
@@ -14,14 +14,14 @@
 // arr2.pop();
 // console.log(arr2);
 
-// arr2.unshift(40)//add element to starting of the array
+// arr2.unshift(40) //add element to starting of the array
 // console.log(arr2);
 // arr2.shift()    //remove frontal element
 // console.log(arr2);
 
-// console.log(arr2.includes(70));
-// console.log(arr2.indexOf(70));
-// console.log(arr2.indexOf(7));// -1 means not exists
+console.log(arr2.includes(70)); //true
+console.log(arr2.indexOf(70));  //2
+console.log(arr2.indexOf(7));// -1 means not exists
 
 // const arr3 = arr2.join()    //joints both arrays and convert them to string
 // console.log(`joint array is ${arr3} it's type is ${typeof arr3}`);
